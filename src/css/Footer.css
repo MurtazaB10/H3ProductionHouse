@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond&family=Roboto:wght@300&display=swap&display=swap");
+
+.footer_title {
+  color: aliceblue;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+.footer p {
+  font-size: 0.8rem;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.footer .copy {
+  font-size: 0.8rem;
+}

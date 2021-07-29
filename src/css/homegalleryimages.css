@@ -1,0 +1,37 @@
+.gallerycol img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+@media (max-width: 1200px) {
+  .gallerycol,
+  .gallerycol img {
+    height: 25rem !important;
+  }
+}
+@media (max-width: 1000px) {
+  .gallerycol {
+    width: 50%;
+  }
+  .gallerycol img {
+    height: 30rem;
+  }
+}
+@media (max-width: 570px) {
+  .gallerycol {
+    width: 100% !important;
+  }
+  .gallerycol,
+  .gallerycol img {
+    height: 30rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .gallerycol img {
+    height: 15rem !important;
+  }
+  .gallerycol {
+    width: 75%;
+    height: 15rem !important;
+  }
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond&family=Roboto:wght@300&display=swap&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #101010 !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: black;
+  color: rgba(161, 161, 161);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.foot {
+  padding-bottom: 2rem !important;
+}

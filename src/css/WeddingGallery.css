@@ -1,0 +1,38 @@
+.wgallery {
+  width: 100%;
+  height: 100vh;
+}
+
+.wg_img_div {
+  width: 100%;
+  height: 40rem;
+  object-fit: contain;
+  margin-top: 2rem;
+}
+
+.wg_img {
+  width: 100%;
+  height: 100%;
+}
+
+.wg_p1 {
+  color: rgb(150, 150, 150);
+  margin-top: 2rem;
+}
+
+.wg_p2 {
+  color: rgb(150, 150, 150);
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1200px) {
+  .wg_img_div {
+    height: 30rem;
+  }
+}
+@media (max-width: 400px) {
+  .wg_img_div {
+    height: 15rem;
+  }
+}
+

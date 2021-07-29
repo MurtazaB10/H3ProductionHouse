@@ -1,0 +1,124 @@
+.service {
+  width: 100%;
+  height: 100vh;
+}
+
+.service_p {
+  color: rgb(150, 150, 150);
+  text-align: center;
+  padding-top: 6rem;
+  letter-spacing: 0.2rem;
+}
+
+.service_heading,
+.service_head {
+  color: aliceblue;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: -15px;
+}
+.service_link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+}
+
+.service_img {
+  width: 100%;
+  height: 100%;
+  mask-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.service_camera {
+  position: absolute;
+  bottom: 13%;
+  left: 5%;
+  color: aliceblue;
+}
+
+.service_head {
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.service_button {
+  width: 20%;
+  padding: 1rem !important;
+  border-radius: 2rem !important;
+  background-color: #1b1b1b !important;
+  color: rgb(150, 150, 150) !important;
+  transition: all 0.5s !important;
+}
+.service_button:hover {
+  background-color: black !important;
+  color: aliceblue !important;
+}
+
+@media (max-width: 1170px) {
+  .service_head {
+    font-size: 1rem;
+  }
+  .service_button {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .service_head {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .service_button {
+    width: 40%;
+  }
+  .col-4 {
+    height: 20rem;
+  } 
+}
+
+
+/* ---service gallery---- */
+.servicecol .service_img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+@media (max-width: 1200px) {
+  .servicecol,
+  .servicecol .service_img {
+    height: 25rem !important;
+  }
+}
+@media (max-width: 1000px) {
+  .servicecol {
+    width: 50%;
+  }
+  .servicecol .service_img {
+    height: 30rem;
+  }
+}
+@media (max-width: 570px) {
+  .servicecol {
+    width: 100% !important;
+  }
+  .servicecol,
+  .servicecol .service_img {
+    height: 30rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .servicecol .service_img {
+    height: 25rem !important;
+  }
+  .servicecol {
+    width: 75%;
+    height: 25rem !important;
+  }
+}
+
